@@ -1,9 +1,9 @@
 .contact {
   height: 100%;
-  max-width: 1366px;
   margin: auto;
   display: flex;
   align-items: center;
+  gap: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 200px;
@@ -11,7 +11,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    gap: 30px;
   }
   h1 {
     font-size: 100px;
@@ -22,6 +23,7 @@
   }
   .fromContiner {
     flex: 1;
+
     form {
       flex-wrap: wrap;
       display: flex;

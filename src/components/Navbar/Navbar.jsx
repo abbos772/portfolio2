@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className={`navbar_text ${toggle ? "show" : ""}`}>
               <a href="#About">About me</a>
               <a href="#Skills">Skills</a>
-              <a href="">Works</a>
+              <a href="#Contact">Works</a>
               <button>CONTACT ME</button>
             </div>
             <button className="menu" onClick={handleToggle}>

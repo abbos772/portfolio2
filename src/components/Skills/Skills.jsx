@@ -15,6 +15,7 @@ import rus from "/rus.jpg";
 import uz from "/uz.jpg";
 import en from "/enn.svg";
 import c from "/c++.svg";
+import Contact from "../Contact/Contact";
 const Skills = () => {
   return (
     <div>
@@ -105,6 +106,9 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 };
